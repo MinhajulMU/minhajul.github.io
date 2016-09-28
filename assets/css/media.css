@@ -1,0 +1,58 @@
+@media handheld,screen and (min-width: 10px) {
+    .containers #container2 #utama .row .proftop{
+      margin-top: 100px;
+    }
+    .menu-checkbox:checked + .containers #nav{
+       width: 70%;
+      transition: all 1s ease;
+   }.menu-checkbox:checked + .containers #container2{
+    width: 100%;
+    margin-left: -30%;
+    transition: all 1s ease;
+  }
+
+}
+
+@media handheld,screen and (min-width: 480px) {
+    .containers #container2 #utama .row .proftop{
+      margin-top: 140px;
+    }.menu-checkbox:checked + .containers #container2{
+  width: 100%;
+  margin-left: -40%;
+  transition: all 1s ease;
+}.menu-checkbox:checked + .containers #nav{
+  width: 40%;
+  transition: all 1s ease;
+}
+
+}
+
+@media handheld, screen and (min-width: 768px) {
+    .containers #container2 #utama .row .proftop{
+      margin-top: 170px;
+    }.menu-checkbox:checked + .containers #container2{
+  width: 100%;
+  margin-left: -30%;
+  transition: all 1s ease;
+}.menu-checkbox:checked + .containers #nav{
+  width: 30%;
+  transition: all 1s ease;
+}
+
+}
+
+@media handheld,screen and (min-width: 1200px) {
+    .containers #container2 #utama .row .proftop{
+      margin-top: 200px;
+    }.menu-checkbox:checked + .containers #container2{
+      width: 100%;
+      margin-left: -17%;
+     transition: all 1s ease;
+  }.menu-checkbox:checked + .containers #nav{
+      width: 17%;
+     transition: all 1s ease;
+}
+
+}
+
+
